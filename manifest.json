@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "ys_extension",
+  "version": "1.0",
+
+  "description": "Pulls info from yahoo",
+  "content_scripts": [
+    {
+      "matches": ["https://ca.finance.yahoo.com/screener/*"],
+      "js": ["ys_extension.js"]
+    }
+  ]
+
+}
